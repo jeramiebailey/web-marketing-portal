@@ -1,0 +1,146 @@
+[
+  {
+    "model": "content_management.contentstatus",
+    "pk": 1,
+    "fields": {
+      "name": "Backlog",
+      "status_type": "Backlog",
+      "order": 1,
+      "color": "#AA63E3",
+      "last_updated": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 2,
+    "fields": {
+      "name": "Planned",
+      "status_type": "Active",
+      "order": 2,
+      "color": "#FD9A01",
+      "last_updated": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 3,
+    "fields": {
+      "name": "Assigned",
+      "status_type": "Active",
+      "order": 3,
+      "color": "#1EAAEA",
+      "last_updated": null,
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 4,
+    "fields": {
+      "name": "Re-Edit",
+      "status_type": "Active",
+      "order": 6,
+      "color": "#EEC301",
+      "last_updated": "2019-03-26T14:59:10.683Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 5,
+    "fields": {
+      "name": "Approval Backlog",
+      "status_type": "Active",
+      "order": 12,
+      "color": "#E363E3",
+      "last_updated": "2019-03-25T18:48:47.444Z",
+      "is_active": false
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 6,
+    "fields": {
+      "name": "Final Review",
+      "status_type": "Active",
+      "order": 7,
+      "color": "#EA4D9D",
+      "last_updated": "2019-03-26T14:57:10.152Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 7,
+    "fields": {
+      "name": "Editing",
+      "status_type": "Active",
+      "order": 5,
+      "color": "#37C4AB",
+      "last_updated": "2019-03-26T14:59:19.565Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 8,
+    "fields": {
+      "name": "Ready to Post",
+      "status_type": "Active",
+      "order": 8,
+      "color": "#E363E3",
+      "last_updated": "2019-03-25T18:49:03.101Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 9,
+    "fields": {
+      "name": "Scheduled",
+      "status_type": "Complete",
+      "order": 9,
+      "color": "#333333",
+      "last_updated": "2019-03-25T18:48:57.736Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 10,
+    "fields": {
+      "name": "Posted",
+      "status_type": "Complete",
+      "order": 10,
+      "color": "#333333",
+      "last_updated": "2019-03-25T18:48:52.542Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 11,
+    "fields": {
+      "name": "On Hold",
+      "status_type": "On Hold",
+      "order": 11,
+      "color": "#999999",
+      "last_updated": "2019-03-25T18:48:43.059Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "content_management.contentstatus",
+    "pk": 13,
+    "fields": {
+      "name": "Rewrite",
+      "status_type": "Active",
+      "order": 4,
+      "color": "tomato",
+      "last_updated": "2019-03-25T18:49:56.990Z",
+      "is_active": true
+    }
+  }
+]

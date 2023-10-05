@@ -1,0 +1,25 @@
+{% extends 'mail/base_email_template.html' %}
+
+{% block title %} 321 Web Marketing Monthly Report {% endblock title %}
+
+{% block body_header %} Your Monthly Report is Ready! {% endblock body_header %}
+
+{% block body_content %}
+
+<p>If you have trouble logging and viewing support, please click reply (reply-to) and send an email to <a target="_blank" rel="noopener noreferrer" href="mailto:support@321webmarketing.com">support@321webmarketing.com</a></p>
+
+<p>If you want to schedule a meeting, please view your report and there is a button on the last page after the briefing</p>
+
+<p>Your monthly {{planning_month}} {{planning_year}} digital marketing report is ready for review. Thank you for working with 321 Web Marketing.</p>
+
+{% endblock body_content %} 
+
+{% block button_link %} {{ button_url }} {% endblock button_link %} 
+
+{% block button_text %} {{ button_text }} {% endblock button_text %} 
+
+{% if unsubcribe_url %}
+    {% block body_footer %} 
+    <a href="{{ unsubcribe_url }}">If you wish to unsubcribe to these report emails please follow this link.</a>
+    {% endblock body_footer %}
+{% endif %}

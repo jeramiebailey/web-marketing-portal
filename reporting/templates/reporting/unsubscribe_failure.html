@@ -1,0 +1,14 @@
+{% extends 'landing.html' %}
+{% load static i18n %}
+
+{% block landing_content %}
+<div class="basic-box unsubscribe-success text-center">
+<h2 class="unsubscribe-success--header">Unsubscribe Un-Successful</h2>
+<div class="unsubscribe-success--body">
+           <p>You have previously unsubscribed to Report email notifications with the email address 
+           <span class="unsubscribe-success--em unsubscribe-success--email-address">{{ email_address }}</span> 
+           for <span class="unsubscribe-success--em unsubscribe-success--email-organization">{{ organization_name }}</span> 
+           </p>
+        </div>
+</div>
+{% endblock landing_content %}

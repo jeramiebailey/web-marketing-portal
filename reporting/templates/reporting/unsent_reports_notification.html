@@ -1,0 +1,15 @@
+{% extends 'mail/base_email_template.html' %}
+
+{% block title %} 321 Web Marketing | Unsent Reports {% endblock title %}
+
+{% block body_header %} Unsent Report Notifications for for {{ planning_month.get_year_month_verbose }} {% endblock body_header %}
+
+{% block body_content %}
+    <div style="text-align: left;">
+        <br>
+        <h3><strong>The following organizations were not sent a report:</strong></h3>
+        {% for report in unsent_reports %}
+           <p>{{ report.organization.dba_name }}</p>
+        {% endfor %}
+    </div>
+{% endblock body_content %} 

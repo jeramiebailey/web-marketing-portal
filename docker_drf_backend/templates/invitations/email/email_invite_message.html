@@ -1,0 +1,78 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <table border="0" cellpadding="10" cellspacing="0" style="background-color: #FFFFFF; margin: 0 auto;" width="600px">
+    <tbody>
+      <tr>
+        <td>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" class="content" style="background-color: #ededed;
+          padding: 40px;
+          border: .5px solid rgba(194, 194, 194, 0.25);
+          border-radius: 2px;">
+            <tbody>
+              <tr>
+                <td id="templateContainerHeader" valign="top" mc:edit="welcomeEdit-01">
+                  <p style="text-align:center;margin:0;padding:0;"><img width="300" src="https://www.321webmarketing.com/wp-content/uploads/2017/07/logo-white.png"
+                      style="display:inline-block; margin-bottom: 40px;"></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td align="center" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" class="brdBottomPadd-two" id="templateContainer"
+                    width="100%">
+                    <tbody>
+                      <tr>
+                        <td class="bodyContent" valign="top" mc:edit="welcomeEdit-02">
+                        <h2><strong>You have been invited to 321 Web Marketing's portal!</strong></h2>
+
+                          <h3>Please follow this <a href="{{invite_url}}">link</a> to
+                            begin your registration!</h3>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" class="unSubContent" id="bodyCellFooter" valign="top">
+                  <table border="0" cellpadding="0" cellspacing="0" id="templateContainerFooter" width="100%">
+                    <tbody>
+                      <tr>
+                        <hr style="color: #888;">
+                      </tr>
+                      <tr>
+                        <td valign="top" width="100%" mc:edit="welcomeEdit-11">
+                          <!--<p style="text-align:center;"><img width="150" src="https://www.321webmarketing.com/wp-content/uploads/2017/07/logo-white.png" style="margin:20px auto 0 auto;display:inline-block;"></p>-->
+
+                          <h6 style="text-align:center;margin-top: 9px;">321 Web Marketing, LLC</h6>
+
+                          <h6 style="text-align:center;">3925 Old Lee Highway, Suite 53-C​</h6>
+
+                          <h6 style="text-align:center;">Fairfax, VA 22030​</h6>
+
+                          <h6 style="text-align:center;margin-top: 7px;"><a href="tel:+17038107557">703·810·7557</a></h6>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
+{% endblocktrans %}
+{% endautoescape %}

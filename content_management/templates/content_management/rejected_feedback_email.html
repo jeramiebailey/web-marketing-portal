@@ -1,0 +1,19 @@
+{% extends 'base_email_template.html' %}
+
+{% block title %}Rejected Feedback Notification{% endblock title %}
+
+{% block body_header %}A recent article you edited has been rejected.{% endblock body_header %}
+
+{% block body_content %}
+<p>An article for <strong>{{ client }}: {{ article_name }}</strong> filed under <strong>{{ month_project }}</strong> has been rejected by {{ rejector }}.</p>
+
+<p><strong>Satisfaction Rating: </strong>{{ satisfaction }}/5</p>
+
+<p><strong>Feedback: </strong>{{ feedback_body }}</p>
+
+<p>Please log into the portal to view and re-edit the content.</p>
+{% endblock body_content %} 
+
+{% block button_link %}{{ hostname }}/content-generation/assignments{% endblock button_link %} 
+
+{% block button_text %}Login and View Your Assignments Here{% endblock button_text %} 

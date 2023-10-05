@@ -1,0 +1,18 @@
+{% extends 'mail/base_email_template.html' %}
+
+{% block title %} {{subject}} {% endblock title %}
+
+{% block body_header %} {{subject}} {% endblock body_header %}
+
+{% block body_content %}
+
+{{ email_body }}
+
+{% endblock body_content %} 
+
+
+{% if unsubcribe_url %}
+    {% block body_footer %} 
+    <a href="{{ unsubcribe_url }}">If you wish to unsubcribe to these report emails please follow this link.</a>
+    {% endblock body_footer %}
+{% endif %}

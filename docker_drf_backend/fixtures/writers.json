@@ -1,0 +1,26 @@
+[
+    {
+        "model": "content_management.writer",
+        "fields": {
+            "user": 38,
+            "rate": 0.0,
+            "rating": 0
+        }
+    },
+    {
+        "model": "content_management.writer",
+        "fields": {
+            "user": 35,
+            "rate": 0.0,
+            "rating": 0
+        }
+    },
+    {
+        "model": "content_management.writer",
+        "fields": {
+            "user": 37,
+            "rate": 1.0,
+            "rating": 0
+        }
+    }
+]

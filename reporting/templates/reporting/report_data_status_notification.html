@@ -1,0 +1,26 @@
+{% extends 'mail/base_email_template.html' %}
+
+{% block title %} 321 Web Marketing | Reporting Data Pull Outcome {% endblock title %}
+
+{% block body_header %} Errors found while pulling report data for {{ planning_month.get_year_month_verbose }} {% endblock body_header %}
+
+{% block body_content %}
+    <div style="text-align: left;">
+        {% for error in errors %}
+            <br>
+            <h3><strong>{{ error.organization }} had the following errors: </strong></h3>
+            {% if error.missing_required_data %}
+                <p><strong>Missing Required Data:</strong></p>
+                {% for err in error.missing_required_data %}
+                    <p>{{ err }}</p>
+                {% endfor %}
+            {% endif %}
+            {% if error.missing_pull_data %}
+                <p><strong>Missing Pull Data:</strong></p>
+                {% for err in error.missing_pull_data %}
+                    <p>{{ err }}</p>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock body_content %} 

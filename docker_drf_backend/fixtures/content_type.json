@@ -1,0 +1,26 @@
+[
+    {
+        "model": "content_management.ContentType",
+        "pk": 1,
+        "fields": {
+            "name": "Blog",
+            "color": "#000000"
+        }
+    },
+    {
+        "model": "content_management.ContentType",
+        "pk": 2,
+        "fields": {
+            "name": "Press Release",
+            "color": "#000000"
+        }
+    },
+    {
+        "model": "content_management.ContentType",
+        "pk": 3,
+        "fields": {
+            "name": "Social Media",
+            "color": "#000000"
+        }
+    }
+]

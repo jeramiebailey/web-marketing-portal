@@ -1,0 +1,218 @@
+[
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "!ehlHQEWKqAVJiB8vTupR1EOnkK7bVJG7qNr9LkGK",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "AnonymousUser",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-02-21T17:04:10.082Z",
+            "name": "",
+            "title": null,
+            "phone_number": null
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$TjFLbGswbFpuTmRa$JX1Ce87487dR6OEptRGlgw",
+            "last_login": "2019-03-06T16:21:20Z",
+            "is_superuser": true,
+            "username": "anthony.andreatos",
+            "first_name": "Anthony",
+            "last_name": "Andreatos",
+            "email": "anthony@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-22T15:22:32Z",
+            "name": "Anthony Andreatos",
+            "title": "Web Developer",
+            "phone_number": null
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$dkl5YVlVblVHc21x$q7XTL2IkIW+GC0Uqs7xz0Q",
+            "last_login": "2019-02-25T14:48:52.668Z",
+            "is_superuser": true,
+            "username": "steve.bishop",
+            "first_name": "Steve",
+            "last_name": "Bishop",
+            "email": "steve@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-22T17:00:20Z",
+            "name": "Steve Bishop",
+            "title": "DMA",
+            "phone_number": "7039990496"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$dWNyVkt2N1B1bjli$GYEIwwq2jTQNt/yLraFHFg",
+            "last_login": "2019-02-25T20:51:46.099Z",
+            "is_superuser": true,
+            "username": "jonathan.gessert",
+            "first_name": "Jonathan",
+            "last_name": "Gessert",
+            "email": "jonathan@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-22T17:03:21Z",
+            "name": "Jonathan Gessert",
+            "title": "CEO",
+            "phone_number": "703-810-7551"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$b282M1NVbjlyaU14$fchIWnoJ7gepVySo1j5cyQ",
+            "last_login": "2019-02-22T17:04:23Z",
+            "is_superuser": true,
+            "username": "elijah.millard",
+            "first_name": "Elijah",
+            "last_name": "Millard",
+            "email": "elijah@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-22T17:03:43Z",
+            "name": "Elijah Millard",
+            "title": "Digital Marketing Strategist",
+            "phone_number": "7038107557"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$alkwemVIUkpNOVdS$B0yyPPLl8nA/zju2RqpC2A",
+            "last_login": "2019-02-25T14:49:54.524Z",
+            "is_superuser": false,
+            "username": "brendan.bockes",
+            "first_name": "Brendan",
+            "last_name": "Bockes",
+            "email": "brendan@321webmarketing.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-02-25T14:48:18.024Z",
+            "name": "Brendan Bockes",
+            "title": "Content Marketer",
+            "phone_number": "7039870857"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$aFZwazVmbmRZQUcz$dUYXypA2R2m3zKa2zhjiXg",
+            "last_login": "2019-02-28T20:35:19.279Z",
+            "is_superuser": true,
+            "username": "will.rosenberg",
+            "first_name": "William",
+            "last_name": "Rosenberg",
+            "email": "will@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-25T14:58:46Z",
+            "name": "William Rosenberg",
+            "title": "Digital Marketer",
+            "phone_number": "703-577-0108"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$ZTVsd2FhNldoajRn$znlrkLEKqgq78I0tAA+vLQ",
+            "last_login": "2019-02-27T18:33:16Z",
+            "is_superuser": true,
+            "username": "shyahn.frasier",
+            "first_name": "Shyahn",
+            "last_name": "Frasier",
+            "email": "shyahn@321webmarketing.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2019-02-27T18:33:16Z",
+            "name": "Shyahn Frasier",
+            "title": "Intern",
+            "phone_number": "7033715155"
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$elp6bTl5VDltMDhj$blReQbWve+SS5l/QXhI+wQ",
+            "last_login": "2019-03-06T15:18:06Z",
+            "is_superuser": false,
+            "username": "michelle.borzillo",
+            "first_name": "Michelle",
+            "last_name": "Borzillo",
+            "email": "michelleborzillo@verizon.net",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-03-06T15:13:29Z",
+            "name": "Michelle Borzillo",
+            "title": "Writer",
+            "phone_number": null
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$MjlqaFZMOEZRTm41$hLWw1rvtGHZUATEwrRtKiQ",
+            "last_login": "2019-03-06T16:46:30Z",
+            "is_superuser": false,
+            "username": "madelyn.donnelly",
+            "first_name": "Madelyn",
+            "last_name": "Donnelly",
+            "email": "mads.donnelly@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-03-06T16:45:51Z",
+            "name": "Madelyn Donnelly",
+            "title": "Content Writer",
+            "phone_number": null
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$YmFtdVA1RVZEcFRv$RFpSJHFgYyAfdsCN5CXDfQ",
+            "last_login": "2019-03-06T16:49:29Z",
+            "is_superuser": false,
+            "username": "samantha.carleton",
+            "first_name": "Samantha",
+            "last_name": "Carleton",
+            "email": "smcstnz@mac.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-03-06T16:47:21Z",
+            "name": "Samantha Carleton",
+            "title": "Content Writer",
+            "phone_number": null
+        }
+    },
+    {
+        "model": "users.user",
+        "fields": {
+            "password": "argon2$argon2i$v=19$m=512,t=2,p=2$QzJXckdtTExheDJw$9cfSkfH3wGe+MTwjC+GqOQ",
+            "last_login": "2019-03-06T16:52:19Z",
+            "is_superuser": false,
+            "username": "isabelle.zammit",
+            "first_name": "Isabelle",
+            "last_name": "Zammit",
+            "email": "isabellethesinger@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2019-03-06T16:51:51Z",
+            "name": "Isabelle Zammit",
+            "title": "Content Writer",
+            "phone_number": null
+        }
+    }
+]

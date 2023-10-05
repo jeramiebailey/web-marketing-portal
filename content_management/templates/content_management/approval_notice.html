@@ -1,0 +1,16 @@
+{% extends 'base_email_template.html' %}
+
+{% block title %}New Article Approval Notice{% endblock title %}
+
+{% block body_header %}A new article is ready to be approved!{% endblock body_header %}
+
+{% block body_content %}
+<p>An article for your organization <strong>{{ client }}: {{ article_name }}</strong> filed under <strong>{{ month_project }}</strong> is now ready for your approval.</p>
+
+
+<p>Please log into the portal to view and approve the content.</p>
+{% endblock body_content %} 
+
+{% block button_link %}{{ hostname }}/content-generation/assignments{% endblock button_link %} 
+
+{% block button_text %}Login and View Here{% endblock button_text %} 

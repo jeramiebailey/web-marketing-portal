@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+
+{% block content %}
+<section class="landing-main">
+    <div class="container">
+    {% block landing_content %}
+    {% endblock landing_content %}
+    </div>
+</section>
+{% endblock content %}
